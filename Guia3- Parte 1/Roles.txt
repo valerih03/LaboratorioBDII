@@ -1,0 +1,80 @@
+Roles
+	SysAdmin
+		Opciones:
+		*Gestionar usuarios: 
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Roles:
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar AsignacionRoles
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Opciones:
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Empleados:
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Cargos:
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+	Gerente
+		*Gestionar productos, ventas, RRHH
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Empleados:
+			-Agregar : INSERT
+	Vendedor
+		*Gestionar clientes
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE 
+		*Facturas
+			-Agregar : INSERT
+			-Consultar : SELECT
+		*DetalleVentas
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Pedidos
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+	Contador
+		*Gestionar Facturas
+			-Consultar : SELECT
+	Bodeguero
+		*Gestionar Productos
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Pedidos
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar DetallePedidos
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+	RRHH
+		*Gestionar Empleados
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Cargos
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+		*Gestionar Departamentos, direcciones, distritos, Municipios
+			-Agregar : INSERT
+			-Consultar : SELECT
+			-Modificar : UPDATE
+
